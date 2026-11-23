@@ -1,0 +1,233 @@
+nav,
+.me {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 4px solid var(--color-me);
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-size: 24px;
+    font-family: var(--font-us);
+    font-weight: 800;
+    color: var(--color-you);
+}
+
+.you {
+    font-size: 34px;
+    background-color: transparent;
+    border: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+@media(min-width:1024px) {
+    .you {
+        display: none;
+    }
+
+    nav,
+    .me {
+        display: flex;
+
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 64px;
+        text-transform: capitalize;
+    }
+
+    a {
+        color: var(--color-me);
+        text-decoration: none;
+        font-family: var(--font-us);
+        font-size: 0.8rem;
+        font-weight: 800;
+
+    }
+
+    li:nth-child(1) a {
+        color: var(--color-you);
+    }
+
+    header {
+        padding: 18px 48px;
+    }
+
+    .me {
+        border-radius: 20px;
+        padding: 8px 24px;
+        border: 0;
+        font-size: 0.8rem;
+        font-weight: 800;
+        background-color: #f57c00;
+        color: inherit;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-property: transform, opacity, background-color;
+    }
+
+    .me:hover {
+        background-color: red;
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+
+    .me:active {
+        background-color: black;
+        color: white;
+    }
+
+    li {
+        transition-duration: 0.5s;
+        transition-property: transform;
+        transition-timing-function: ease;
+    }
+
+    li:hover {
+        font-weight: 300;
+        transform: scale(1.2);
+        background-color: #c9c5c5;
+        border-radius: 30px;
+
+    }
+
+    li a:active {
+        background-color: #171715;
+        color: #fff;
+    }
+}:root {
+    --color-me: #1a1c1c;
+    --color-you: #964900;
+    --color-two:#f57c00;
+    --font-us: "Inter", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav,
+.me {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 4px solid var(--color-me);
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-size: 24px;
+    font-family: var(--font-us);
+    font-weight: 800;
+    color: var(--color-you);
+}
+
+.you {
+    font-size: 34px;
+    background-color: transparent;
+    border: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+@media(min-width:1024px) {
+    .you {
+        display: none;
+    }
+
+    nav,
+    .me {
+        display: flex;
+
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 64px;
+        text-transform: capitalize;
+    }
+
+    a {
+        color: var(--color-me);
+        text-decoration: none;
+        font-family: var(--font-us);
+        font-size: 0.8rem;
+        font-weight: 800;
+
+    }
+
+    li:nth-child(1) a {
+        color: var(--color-you);
+    }
+
+    header {
+        padding: 18px 48px;
+    }
+
+    .me {
+        border-radius: 20px;
+        padding: 8px 24px;
+        border: 0;
+        font-size: 0.8rem;
+        font-weight: 800;
+        background-color: #f57c00;
+        color: inherit;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-property: transform, opacity, background-color;
+    }
+
+    .me:hover {
+        background-color: red;
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+
+    .me:active {
+        background-color: black;
+        color: white;
+    }
+
+    li {
+        transition-duration: 0.5s;
+        transition-property: transform;
+        transition-timing-function: ease;
+    }
+
+    li:hover {
+        font-weight: 300;
+        transform: scale(1.2);
+        background-color: #c9c5c5;
+        border-radius: 30px;
+        padding: 8px;
+
+    }
+
+    li a:active {
+        background-color: #171715;
+        color: #fff;
+    }
+}

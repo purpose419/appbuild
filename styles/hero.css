@@ -1,0 +1,47 @@
+main{
+    padding:25px;
+}
+.pic img{
+    height: 350px;
+}
+.est{
+    background-color: var(--color-me) ;
+    color:var(--color-three);
+    width: fit-content;
+    padding: 4px 16px;
+    font-family: var(--font-us);
+}
+.txt h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-me);
+    font-family: var(--font-us);
+}
+.txt span{
+   color: var(--color-two);
+}
+.txt p{
+    font-family:var(--font-us);
+    color: var(--color-you);
+    line-height: 24px;
+    letter-spacing: 0;
+}
+.btn-container{
+    padding: 10px;
+    justify-content: center;
+}
+.btn-container button:first-child{
+   padding: 6px;
+   background-color: var(--color-you);
+   color: var(--color-three);
+   border: none;
+   width: 300px;
+   margin-bottom: 12px;
+}
+.btn-container button:last-child{
+   padding: 6px;
+   background-color: var(--color-three);
+   color: var(--color-me);
+   border: 1px solid #773e05;
+   width: 300px;
+}
