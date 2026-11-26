@@ -1,0 +1,42 @@
+.proj{
+padding-top: 20px;
+}
+.proj h2{
+    font-size:20px;
+    padding: 20px;
+}
+.img-sec img{
+    height:350px;
+    padding-left: 10px;
+}
+.line{
+    display: flex;
+ align-items: center;
+}
+.line hr{
+    width: 30%;
+    height: 0;
+    margin-left: 0px;
+}
+
+@media(min-width:1024px){
+.img-sec {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img-sec img{
+    height:318px;
+    margin: 8px;
+    margin-top: 10px;
+}
+.line{
+    display: flex;
+ align-items: center;
+}
+.line hr{
+    width: 70%;
+    height: 0;
+    margin-left: -550px;
+}
+
+}

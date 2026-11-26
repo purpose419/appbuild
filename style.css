@@ -1,19 +1,15 @@
 @import url(./styles/header.css);
 @import url(./styles/hero.css);
-:root {
-    --color-me: #1a1c1c;
-    --color-you: #964900;
-    --color-two:#f57c00;
-    --color-three:#fff;
-    --font-us: "Inter", sans-serif;
-}
-
-* {
-    padding: 0;
+@import url(./styles/projects.css);
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background: #f9f9f9;
+:root{
+    --black: #1A1C1C;
+    --orange: #964900;
+    --light-orange: #574235;
+    --inter-font: "Inter", sans-serif;
 }
