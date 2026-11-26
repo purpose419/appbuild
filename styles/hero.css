@@ -41,7 +41,9 @@ main{
 .btn-container button:last-child{
    padding: 6px;
    background-color: var(--color-three);
+
    color: var(--color-me);
    border: 1px solid #773e05;
    width: 300px;
-}
+}35
+
